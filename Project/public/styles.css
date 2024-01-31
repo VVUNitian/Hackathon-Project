@@ -17,6 +17,17 @@
     color: white;
     text-decoration: none;
   }
+  a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 0.0125rem solid #E2AF49;
+    transition: background-color .3s ease, color .3s ease;
+  }
+  a:hover {
+    background-color: skyblue;
+    border-radius: 100px;
+    color: black;
+  }
 .logo{
     padding: 0px;
     height: 120px;
@@ -26,18 +37,18 @@
 .Home{
     color: white;
     padding: 30px;
-    padding-left: 850px;
 }
 .About{
     color: white;
     padding: 30px;
+    padding-left: 1050px;
 }
 .Track{
     color: white;
     padding: 30px;
 }
 .Page{
-    background: url("/images/235729299927.jpg");
+    background: url("./images/back.jpg");
     height: 270vh;
 }
 .main{
@@ -69,12 +80,12 @@
 }
 .pay:hover{
     box-shadow:
-1px 1px red,
-2px 2px red,
-3px 3px red,
-4px 4px red,
-5px 5px red,
-6px 6px red;
+1px 1px whitesmoke,
+2px 2px whitesmoke,
+3px 3px whitesmoke,
+4px 4px whitesmoke,
+5px 5px whitesmoke,
+6px 6px whitesmoke;
 -webkit-transform: translateX(-3px);
 transform: translateX(-3px);
 transition: .5s ease;
@@ -194,12 +205,12 @@ transition: .5s ease;
   }
   .line{
     position: relative;
-    top: -350px;
+    top: -200px;
   }
   .footer{
     color: white;
     position: relative;
-    top: -250px;
+    top: -200px;
     font-size: 20px;
     left: 500px;
   }

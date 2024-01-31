@@ -9,10 +9,10 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center;
-  background: url("../images/235729299927.jpg");
+  background: url("../images/back.jpg");
 }
 ::selection{
-  background: red;
+  background: skyblue;
   color: #fff;
 }
 .wrapper{
@@ -29,7 +29,7 @@ html,body{
   color: #fff;
   user-select: none;
   border-radius: 15px 15px 0 0;
-  background: linear-gradient(-135deg, red, maroon);
+  background: linear-gradient(-135deg, skyblue, navy);
 }
 .wrapper form{
   padding: 10px 30px 50px 30px;
@@ -52,7 +52,7 @@ html,body{
 }
 .wrapper form .field input:focus,
 form .field input:valid{
-  border-color: maroon;
+  border-color: navy;
 }
 .wrapper form .field label{
   position: absolute;
@@ -69,7 +69,7 @@ form .field input:focus ~ label,
 form .field input:valid ~ label{
   top: 0%;
   font-size: 16px;
-  color: maroon;
+  color: navy;
   background: #fff;
   transform: translateY(-50%);
 }
@@ -89,7 +89,7 @@ form .content .checkbox{
 form .content input{
   width: 15px;
   height: 15px;
-  background: red;
+  background: skyblue;
 }
 form .content label{
   color: #262626;
@@ -107,7 +107,7 @@ form .field input[type="submit"]{
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
-  background: linear-gradient(-135deg, red, maroon);
+  background: linear-gradient(-135deg, skyblue, navy);
   transition: all 0.3s ease;
 }
 form .field input[type="submit"]:active{
@@ -120,7 +120,7 @@ form .signup-link{
 }
 form .pass-link a,
 form .signup-link a{
-  color: red;
+  color: skyblue;
   text-decoration: none;
 }
 form .pass-link a:hover,
