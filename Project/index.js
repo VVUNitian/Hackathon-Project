@@ -30,10 +30,14 @@ app.get("/signup",(req,res)=>{
 });
 
 app.get("/login",(req,res)=>{
-    res.render("login.ejs");
+    res.render("Login1.ejs");
 });
 
-app.get("/dashboard", (req,res) => {
-    res.render("dashboard.ejs");
+app.get("/about", (req,res) => {
+    res.render("Navbar1.ejs");
+});
+
+app.get("/contactus", (req,res) => {
+    res.render("Navbar2.ejs");
 });
 
