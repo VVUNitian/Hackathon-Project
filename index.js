@@ -15,10 +15,10 @@ app.listen(port,()=>{
     console.log("Listening on port 9090");
 });
 
-// app.get("/",(req,res)=>{
-//      console.log("Server working perfectly..");
-//      res.send("Hello this is my webserver");
-//  });
+app.get("/",(req,res)=>{
+     console.log("Server working perfectly..");
+     res.send("Hello this is my webserver");
+ });
  
 
 app.get("/homepage",(req,res)=>{
